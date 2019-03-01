@@ -1,1 +1,1 @@
-# NEA-Project-Ideas
+# NEA-Project
