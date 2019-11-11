@@ -1,0 +1,36 @@
+﻿<html>
+<head>
+    <title></title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'startstyle.css' %}" />
+</head>
+<body>
+    <div class="title">
+        <h1 align ="center">Restaurant Booking System</h1>
+    </div>
+
+    <div class="loginregister">
+        <h2 align="center">Login to your account.</h2>
+
+        <!--Staff Login-->
+        <p align="center"><font size="4">Staff login</font></p>
+        <form align="center" action="stafflogin/">
+            <input class="redirectstafflogin" type="submit" value="Staff Log in"/>
+        </form>
+
+        <h2 align="center">Register an account.</h2>
+
+        <!--Staff register-->
+        <p align="center"><font size="4">Staff register</font></p>
+        <form align="center" action="staffregister/">
+            <input class="redirectstaffregister" type="submit" value="Staff Register"/>
+        </form>
+    </div>
+
+    <div class="reservation">
+        <input type="text" class="searchrestaurant" placeholder="Search for a restaurant"/>
+        <h2 align="center">Pick a date:</h2>
+        <input align="center" type="date" class="revdate"/>
+    </div>
+</body>
+</html>
